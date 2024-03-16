@@ -13,7 +13,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
 
-database_path = "Resources/hawaii.sqlite"
+database_path = "../Resources/hawaii.sqlite"
 engine = create_engine(f"sqlite:///{database_path}")
 
 # reflect an existing database into a new model
